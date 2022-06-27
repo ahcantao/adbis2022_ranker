@@ -1,0 +1,8 @@
+There are 85 numeric classification datasets with 300 examples and 2, 3, 5, 7 or 21 features (10 times each).
+  https://drive.google.com/drive/folders/1jS2zGx1pkpFKgY8be-k8DhojYRQnR_2W?usp=sharing
+
+For noise injection, copies of the original (non-noisy) features have been added and the copy-features examples have been corrupted in 5%, 10%, 20% and 40% rates (10 times each).
+There are 11 features copy rates, ranging from 2^0 to 2^10. In maximium, there are 1024 noisy copies of the original features, for all datasets.
+  https://drive.google.com/drive/folders/1wAr9_ZQBXxNNuewXsuO7BEMaDdP5Ijr2?usp=sharing
+
+In total, there are 85 * 10 * 11 * 4 * 10 = 374,000 noisy dataset files
