@@ -199,8 +199,7 @@ def build_forest(file, seed):
     dataset_data.pop('CLASS')
     n_classes = len(set(dataset_class))
     
-    nTreesLog = 3 * math.log2(len(dataset_data)/(len(dataset_data.columns)))
-    forest = RandomForestClassifier(n_estimators = max(nTrees, int(nTreesLog)),
+    forest = RandomForestClassifier(n_estimators = nTrees,
                                     bootstrap = True,
                                     random_state = seed,
                                     oob_score = True,
